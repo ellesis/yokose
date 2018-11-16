@@ -1,6 +1,8 @@
 import React, { PureComponent } from 'react';
 import ReactEcharts from 'echarts-for-react';
 
+require('echarts/map/js/world.js');
+
 export default class WorldMap extends PureComponent {
    
   getOption = () => ( {
@@ -21,7 +23,7 @@ export default class WorldMap extends PureComponent {
         }
     },
     toolbox: {
-        show: true,
+        show: false,
         orient: 'vertical',
         left: 'right',
         top: 'center',
@@ -48,9 +50,10 @@ export default class WorldMap extends PureComponent {
             mapType: 'world',
             roam: true,
             itemStyle:{
-                emphasis:{label:{show:true}}
-            },
-            data:[
+                    emphasis:{label:{show:true}}
+                },
+            data:
+            [
                 {name: 'Afghanistan', value: 28397.812},
                 {name: 'Angola', value: 19549.124},
                 {name: 'Albania', value: 3150.143},

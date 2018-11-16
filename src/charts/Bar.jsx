@@ -11,7 +11,7 @@ export default class Bar extends PureComponent {
         data:['aaa','bbb']
     },
     toolbox: {
-        show : true,
+        show : false,
         feature : {
             dataView : {show: true, readOnly: false},
             magicType : {show: true, type: ['line', 'bar']},
@@ -23,7 +23,7 @@ export default class Bar extends PureComponent {
     xAxis : [
         {
             type : 'category',
-            data : ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月']
+            data : ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
         }
     ],
     yAxis : [

@@ -12,6 +12,7 @@ export default class Pyramid extends PureComponent {
         formatter: "{a} <br/>{b} : {c}%"
     },
     toolbox: {
+        show : false,
         feature: {
             dataView: {readOnly: false},
             restore: {},

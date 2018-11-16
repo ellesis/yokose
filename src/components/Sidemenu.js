@@ -7,7 +7,8 @@ class Sidemenu extends Component {
         <div className="menu_section active">
           <h3>General</h3>
           <ul className="nav side-menu" >
-            <li className="active"><a><i className="fa fa-home"></i> Home <span className="fa fa-chevron-down"></span></a>
+            <li className="active">
+              <a><i className="fa fa-home"></i> Home <span className="fa fa-chevron-down"></span></a>
               <ul className="nav child_menu">
                 <li className="current-page"><a href="index.html">Dashboard</a></li>
                 <li><a href="index2.html">Dashboard2</a></li>

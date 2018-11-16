@@ -41,8 +41,8 @@ export default class PaiNest extends PureComponent {
             radius: ['40%', '55%'],
             label: {
                 normal: {
-                    formatter: '{a|{a}}{abg|}\n{hr|}\n  {b|{b}：}{c}  {per|{d}%}  ',
-                    backgroundColor: '#eee',
+                    formatter: '{b}:{c} ({d}%)  ',
+                    backgroundColor: 'light grey',
                     borderColor: '#aaa',
                     borderWidth: 1,
                     borderRadius: 4,

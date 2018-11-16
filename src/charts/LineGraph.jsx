@@ -19,6 +19,7 @@ export default class LineGraph extends PureComponent {
         data:['Mail Marketing', 'Union Advertising', 'Video Advertising', 'Direct Access', 'Search Engine']
     },
     toolbox: {
+        show : false,
         feature: {
             saveAsImage: {}
         }
@@ -43,37 +44,37 @@ export default class LineGraph extends PureComponent {
     ],
     series : [
         {
-            name:'邮件营销',
+            name:'Email marketing',
             type:'line',
-            stack: '总量',
+            stack: 'Total',
             areaStyle: {},
             data:[120, 132, 101, 134, 90, 230, 210]
         },
         {
-            name:'联盟广告',
+            name:'Alliance advertising',
             type:'line',
-            stack: '总量',
+            stack: 'Total',
             areaStyle: {},
             data:[220, 182, 191, 234, 290, 330, 310]
         },
         {
-            name:'视频广告',
+            name:'Video ad',
             type:'line',
-            stack: '总量',
+            stack: 'Total',
             areaStyle: {},
             data:[150, 232, 201, 154, 190, 330, 410]
         },
         {
-            name:'直接访问',
+            name:'Direct interview',
             type:'line',
-            stack: '总量',
+            stack: 'Total',
             areaStyle: {normal: {}},
             data:[320, 332, 301, 334, 390, 330, 320]
         },
         {
-            name:'搜索引擎',
+            name:'Search engine',
             type:'line',
-            stack: '总量',
+            stack: 'Total',
             label: {
                 normal: {
                     show: true,

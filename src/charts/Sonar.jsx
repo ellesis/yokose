@@ -2,10 +2,7 @@ import React, { PureComponent } from 'react';
 import ReactEcharts from 'echarts-for-react';
 
 export default class Sonar extends PureComponent {
-  getOption = () => ({
-    title: {
-        text: 'Basic radar chart'
-    },
+  getOption = () => ({    
     tooltip: {},
     legend: {
         data: ['Allocated Budget', 'Actual Spending']

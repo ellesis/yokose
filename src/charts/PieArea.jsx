@@ -18,7 +18,7 @@ export default class PieArea extends PureComponent {
         data:['rose1','rose2','rose3','rose4','rose5','rose6','rose7','rose8']
     },
     toolbox: {
-        show : true,
+        show : false,
         feature : {
             mark : {show: true},
             dataView : {show: true, readOnly: false},

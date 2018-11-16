@@ -4,7 +4,7 @@ import ReactEcharts from 'echarts-for-react';
 export default class ScatterGraph extends PureComponent {
   getOption = () => ({
     title : {
-        text: 'Male and female height and weight distribution',
+        text: 'Height and Weight distribution',
         subtext: 'Sample survey comes from: Heinz  2003'
     },
     grid: {
@@ -38,6 +38,7 @@ export default class ScatterGraph extends PureComponent {
         }
     },
     toolbox: {
+        show : false,
         feature: {
             dataZoom: {},
             brush: {
@@ -169,7 +170,7 @@ export default class ScatterGraph extends PureComponent {
             }
         },
         {
-            name:'男性',
+            name:'Man',
             type:'scatter',
             data: [[174.0, 65.6], [175.3, 71.8], [193.5, 80.7], [186.5, 72.6], [187.2, 78.8],
                 [181.5, 74.8], [184.0, 86.4], [184.5, 78.4], [175.0, 62.0], [184.0, 81.6],

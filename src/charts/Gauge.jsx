@@ -7,6 +7,7 @@ export default class Gauge extends PureComponent {
         formatter: "{a} <br/>{b} : {c}%"
     },
     toolbox: {
+        show : false,
         feature: {
             restore: {},
             saveAsImage: {}
