@@ -8,7 +8,7 @@ class Topbar extends Component {
           <nav>
             <div className="nav toggle">
               <a id="menu_toggle"><i className="fa fa-bars"></i></a>
-            </div> 
+            </div>
           </nav>
 
           <div className="Search-bar">
@@ -21,7 +21,7 @@ class Topbar extends Component {
               </div>
             </div>
           </div>
-          
+
         </div>
       </div>
     )

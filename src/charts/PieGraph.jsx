@@ -15,7 +15,7 @@ export default class PieGraph extends PureComponent {
     legend: {
         orient: 'vertical',
         left: 'left',
-        data: ['Direct access', 'mail marketing', 'alliance advertising', 'video advertising', 'search engine']
+        data: ['Direct access', 'Mail marketing', 'Union ad', 'Video ad', 'Search Engine']
     },
     series : [
         {
@@ -24,10 +24,10 @@ export default class PieGraph extends PureComponent {
             radius : '55%',
             center: ['50%', '60%'],
             data:[
-                {value:335, name: 'direct access'},
-                 {value:310, name: 'mail marketing'},
+                {value:335, name: 'Direct access'},
+                 {value:310, name: 'Mail marketing'},
                  {value:234, name: 'Union ad'},
-                 {value:135, name: 'video ad'},
+                 {value:135, name: 'Video ad'},
                  {value:1548, name:'Search Engine'}
             ],
             itemStyle: {

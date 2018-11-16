@@ -8,8 +8,8 @@ export default class PaiNest extends PureComponent {
         formatter: "{a} <br/>{b}: {c} ({d}%)"
     },
     legend: {
-        orient: 'vertical',
         x: 'left',
+        y: 'top',
         data:['Direct', 'Marketing Advertising', 'Search Engine', 'Mail Marketing', 'Union Advertising', 'Video Advertising', 'Baidu', 'Google', 'Bing', 'Other']
     },
     series: [

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class RightMenuFooter extends Component {
+class FooterLeft extends Component {
   render() {
     return (
       <div className="sidebar-footer hidden-small">
@@ -13,7 +13,7 @@ class RightMenuFooter extends Component {
         <a data-toggle="tooltip" data-placement="top" title="Lock">
           <span className="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
         </a>
-        <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
+        <a data-toggle="tooltip" data-placement="top" title="Logout" href="">
           <span className="glyphicon glyphicon-off" aria-hidden="true"></span>
         </a>
       </div>
@@ -21,4 +21,4 @@ class RightMenuFooter extends Component {
   }
 }
 
-export default RightMenuFooter
+export default FooterLeft

@@ -3,14 +3,18 @@ import ReactEcharts from 'echarts-for-react';
 
 export default class DonutGraph extends PureComponent {
   getOption = () => ({
+    title: {
+        Text: 'Ring diagram'
+    },
     tooltip: {
         trigger: 'item',
         formatter: "{a} <br/>{b}: {c} ({d}%)"
     },
+    
     legend: {
-        orient: 'vertical',
+        orient: 'vertical',      
         x: 'left',
-        data:['Direct access', 'mail marketing', 'alliance advertising', 'video advertising', 'search engine']
+        data:['Direct access', 'Mail marketing', 'Union ad', 'video ad', 'Search Engine']
     },
     series: [
         {
@@ -37,8 +41,8 @@ export default class DonutGraph extends PureComponent {
                 }
             },
             data:[
-                {value:335, name: 'direct access'},
-                 {value:310, name: 'mail marketing'},
+                {value:335, name: 'Direct access'},
+                 {value:310, name: 'Mail marketing'},
                  {value:234, name: 'Union ad'},
                  {value:135, name: 'video ad'},
                  {value:1548, name:'Search Engine'}

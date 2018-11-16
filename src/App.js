@@ -3,7 +3,7 @@ import './App.css'
 
 import SiteInfo from './components/SiteInfo'
 import Sidemenu from './components/Sidemenu'
-import RightMenuFooter from './components/RightMenuFooter'
+import FooterLeft from './components/FooterLeft'
 import Topbar from './components/Topbar'
 import Footer from './components/Footer'
 
@@ -19,7 +19,7 @@ class App extends Component {
             <div className="left_col scroll-view">
               <SiteInfo />
               <Sidemenu />
-              <RightMenuFooter />
+              <FooterLeft />
             </div>
           </div>
 
@@ -28,7 +28,6 @@ class App extends Component {
             <MainCharts />
             <Footer />
           </div>
-
 
         </div>
       </div>
