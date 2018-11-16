@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import './App.css'
 
-
-
 import UserPanel from './components/UserPanel'
 import Sidemenu from './components/Sidemenu'
 import RightMenuFooter from './components/RightMenuFooter'
 import Topbar from './components/Topbar'
-import Main from './components/Main'
 import Footer from './components/Footer'
+
+import MainCharts from './pages/MainCharts'
+
 
 class App extends Component {
   render() {
@@ -26,7 +26,7 @@ class App extends Component {
 
           <div >
             <Topbar />
-            <Main />
+            <MainCharts />
             <Footer />
           </div>
         </div>
